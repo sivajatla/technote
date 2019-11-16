@@ -1,0 +1,44 @@
+generate ssh key and add public key in github site
+windows --> use git bash for generating ssh key.public and private keys should be inside .ssh folder 
+mac --> we have unix terminal so we can generate it from there...
+
+git config 
+
+git urls :
+--------------------
+https://github.com/sivajatla/reactjsws.git
+
+git@github.com:sivajatla/BestPriceProject.git
+
+git init 
+git remote add origin https://github.com/sivajatla/reactjsws.git
+
+steps for pull :
+--------------------
+git clone
+git pull
+
+steps for push our changes:
+----------------------------
+git add file/folder
+git commit -m "commnets"
+git push -u origin master
+
+----------------------------------------------------------------------------
+…or create a new repository on the command line
+
+echo "# BestPriceProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:sivajatla/BestPriceProject.git
+git push -u origin master
+
+or push an existing repository from the command line
+
+git remote add origin git@github.com:sivajatla/BestPriceProject.git
+git push -u origin master
+------------------------------------------------------------------------------
+
+------------------------------------------------------------
+

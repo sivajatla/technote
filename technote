@@ -1,3 +1,232 @@
 1)Spring practicle exaples
 https://www.baeldung.com/securing-a-restful-web-service-with-spring-security
 https://github.com/eugenp/tutorials.git
+
+*very important Understanding, practicing and apply new features of frameworks, technologies or program language
+
+@understand the concepts and remember accordingly
+
+*Problem statement: find the solution/algorithm and implement in a program.
+*practice always Array or collection core basic,Ds,alg, programs(ex: duplicate words, reverse, primary..etc)
+*Core java and advanced java. and write sql queries for fetching data from multiple tables.
+*Crack online programing test
+
+
+
+*If any one asking us to write a program or process if possible explain first what  you are going to implement.
+Ex: soap service impl - XML to XSD to Java Req and Res and write webservices classes and method.
+
+*what is the default hashmap size and how to increase it?
+*How will get 12th max record in a table?
+*How does a hash table works internally?
+*Marker interface and legacy Java classes?
+*@springbootapplication what it will do?
+*Spring listeners
+*Core Java programs on basis of arrays or string
+*core thread concepts in detail and how behave in java
+
+Tech note :
+Sites:
+*Native lib generation:
+http://docs.kony.com/konylibrary/visualizer/visualizer_user_guide/Content/Build_nativeLibrary.htm
+
+
+*Return count of matching 0 to 9
+grep -wic “welcome” filename.ext.?
+Grep -wic “weekend” filename.ext.* --return count of matches in all files
+
+*tail -f filename.ext
+*?string /string
+
+UNIX:
+--------
+grep -wic "String" middleware.log.?
+grep -wic "String" middleware.log.*
+tail -f middleware.log
+? / for search
+*./startjboss.sh;tailf nohup.out;
+adb push source file sdcard/tragefolder
+*PS -ef|grep java
+*sudo su - userid
+
+
+Tech Items:
+Tech learn1:
+*python, maths, data scientist
+
+Tech learn2:
+*Build tools : Gradle
+*Java generics, microservices
+*Kony
+Android: 
+*interested, a good source for understanding design patterns
+*Robo*,butter knife, daggar, Android annotations
+*MVP
+
+
+Hibernate:
+---------------------------------------
+https://howtodoinjava.com/hibernate/hibernate-criteria-queries-tutorial/
+
+Fetching multiple columns
+Query q = session.createQuery("select e.id, e.firstName from Employee e");
+     List<Object[]> employees= (List<Object[]>)q.list();
+     for(Object[] employee: employees){
+         Integer id = (Integer)employee[0];
+         String firstName = (String)em.
+
+2) criteria query joins:
+Criteria c = session.createCriteria(Employee.class, "e");
+c.createAlias("e.meetings", "m"); // inner join by default
+c.setProjection( Projections.distinct( Projections.projectionList()
+            .add( Projections.property("e.employeeId"), "employeeId")
+            .add( Projections.property("m.meetingId"), "meetingId")
+            .add( Projections.property("e.firstname"), "firstname")));
+*https://www.onlinetutorialspoint.com/hibernate/hibernate-projection-example.html
+
+
+Ways to delete a row:
+https://www.codejava.net/frameworks/hibernate/hibernate-basics-3-ways-to-delete-an-entity-from-the-datastore
+
+
+----------------------------------------
+Singleton vs static:
+http://www.crazyforcode.com/cant-static-class-singleton/
+
+*Jdbc connection data source vs drivermanager
+
+Spring @copmonent:
+https://javarevisited.blogspot.com/2017/11/difference-between-component-service.html?m=1
+
+Different ways to load spring beans:
+http://www.springboottutorial.com/spring-boot-java-xml-context-configuration
+
+
+Resttemplate:
+https://www.baeldung.com/rest-template
+https://www.tutorialspoint.com/spring_boot/spring_boot_rest_template.htm
+
+Role based access rights
+
+Spring soap-ws:
+http://www.springboottutorial.com/creating-soap-web-service-with-spring-boot-web-services-starter
+
+Microservices begin to deployment:
+https://dzone.com/articles/microservices-in-practice-1
+ *Deploying each microservice as a container
+
+Why does char array recommended for store pwd instead of string?
+https://javarevisited.blogspot.com/2012/03/why-character-array-is-better-than.html?m=1
+
+Submit HTML form to restservive:
+https://stackoverflow.com/questions/29640084/sending-html-form-data-to-spring-rest-web-service
+
+
+@consumes mime type:
+https://www.javainterviewpoint.com/jax-rs-rest-consumes-example/
+
+http://www.benchresources.net/resteasy-jax-rs-web-service-for-uploadingdownloading-zip-file-java-client/
+
+Symmetric and asymmetric handshakes: ssl works.
+https://crispcafe.wordpress.com/security/how-ssl-uses-both-symmetric-and-asymmetric-during-hand-shake/
+
+XML parsers : ex:jaxb-ws, Dom,sax..etc, marshaling and unmarshaling.
+https://www.journaldev.com/1240/java-xml-parser
+
+*Deployment descriptor : web.xml, wsdl, uddl
+
+*Enable/disable and setloggers level
+https://examples.javacodegeeks.com/enterprise-java/log4j/log4j-enable-disable-logging-example/
+
+*Different ways to create object in java
+https://www.geeksforgeeks.org/different-ways-create-objects-java/
+
+*Concurrent apis in Java
+
+*Java8 features,
+*Any diamond problem with default interface method.
+*Where will u write the code for save request and response for soap service?
+
+Spring MVC:
+https://www.javatpoint.com/spring-mvc-crud-example
+
+*Java classes loading and initialize?
+
+*Single Web app running with multiple instances in server--
+*Load balancer?
+
+Consume soap service by using Httpconnection
+https://www.google.com/amp/s/rathinasaba.wordpress.com/2013/02/01/call-webservice-wsdl-based-using-apache-httpconnection/amp/
+
+Types of bean creation:
+Constructor, getter setter, type based
+
+Post with httpclient:
+https://www.baeldung.com/httpclient-post-http-request
+
+*Covarient types
+
+*Spring cloud? Eurekha
+
+*Association in java:
+https://beginnersbook.com/2013/05/association/
+
+*Hashmap:
+https://javabeginnerstutorial.com/core-java-tutorial/java-hashmap/
+
+*Breaking the monolithic db in your microservices architecture:
+https://dzone.com/articles/breaking-the-monolithic-database-in-your-microserv
+
+XML to Java object unmarshaling:
+https://howtodoinjava-com.cdn.ampproject.org/v/s/howtodoinjava.com/
+
+Url authorization:
+1)
+https://www.javainuse.com/spring/spring-boot-oauth-authorization-code
+2)
+https://www.baeldung.com/securing-a-restful-web-service-with-spring-security
+
+*Types autowire or dependency injection in spring:
+   *By name(setter method autowire), by type, constructor, autodetect
+
+*Interface vs abstract class after Java8:
+Tohttps://javaconceptoftheday.com/interface-vs-abstract-class-after-java-8/
+
+*What are the main tags in soap request
+
+Thread sleep vs wait:
+https://howtodoinjava.com/java/multi-threading/sleep-vs-wait/
+
+Streams in java8:
+https://www.geeksforgeeks.org/stream-in-java/
+
+*How will provide the security for soap Services?
+ how does third party Services provide access to their webservices to the clients?
+
+*What is the latest production issue you fixed?
+
+*are you using different repositories or same repository for your microservices?
+
+*Implicit sort use comparable, third party sort use comparator 
+
+*know them :  security, security tools ,cyber security
+
+*How will you do multiple service calls from postman? One service response as a request to other service?
+
+*What is functional interface, method reference
+Java8 features must handson 
+
+*Functional programing languages : Scala, python
+
+*Debug program inspect element
+
+*How will you covert functional interface to lamda expression?
+
+*Serializable vs extralizable?
+*Hibernate fetching mechanisms?
+*How to generate XML response from restfulservices by using @produces?
+*Bean Scopes in spring?
+*Hybaris, hibernate : jpa
+*Build path vs class path
+
+*Spring batch - for large file processing
