@@ -1,3 +1,9 @@
+11 May 2020:
+---
+@ssl-enable spring-boot web app
+https://www.baeldung.com/spring-boot-https-self-signed-certificate
+https://blogs.oracle.com/blogbypuneeth/steps-to-create-a-self-signed-certificate-using-openssl
+
 Date : 14 Dec 2019
 Data Science:
 https://github.com/wshuyi/labwork-json-python
